@@ -12,18 +12,18 @@ describe("app component", () => {
     ReactDOM.render(<App />, div);
   });
 
+  it("should match snapshot", () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it("should contain a h1 element", () => {
     expect(wrapper.find("h1").length).toEqual(1);
   });
 
-  it("should contain a h1 element with the `Desafio Live Rocket Seat` title", () => {
+  it("should contain a h1 element with the `Live Challenge RocketSeat` title", () => {
     const h1 = wrapper.find("h1").first();
 
-    expect(h1.text()).toEqual("Desafio Live Rocket Seat");
-  });
-
-  it("should match snapshot", () => {
-    expect(wrapper).toMatchSnapshot();
+    expect(h1.text()).toEqual("Live Challenge RocketSeat");
   });
 
   it("should contain a todos component", () => {

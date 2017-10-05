@@ -5,8 +5,8 @@ import Todos from "./Todos";
 
 const App = () => (
   <Provider store={store}>
-    <div style={{ padding: "1em" }}>
-      <h1>Desafio Live Rocket Seat</h1>
+    <div style={{ padding: "0.5em" }}>
+      <h1 style={{ marginTop: 0 }}>Live Challenge RocketSeat</h1>
       <Todos />
     </div>
   </Provider>

@@ -20,12 +20,18 @@ ShallowWrapper {
       "children": <div
         style={
                 Object {
-                        "padding": "1em",
+                        "padding": "0.5em",
                       }
         }
 >
-        <h1>
-                Desafio Live Rocket Seat
+        <h1
+                style={
+                        Object {
+                                "marginTop": 0,
+                              }
+                }
+        >
+                Live Challenge RocketSeat
         </h1>
         <Connect(Todos) />
 </div>,
@@ -44,13 +50,19 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Desafio Live Rocket Seat
+          <h1
+            style={
+                        Object {
+                                    "marginTop": 0,
+                                  }
+            }
+>
+            Live Challenge RocketSeat
 </h1>,
           <Connect(Todos) />,
         ],
         "style": Object {
-          "padding": "1em",
+          "padding": "0.5em",
         },
       },
       "ref": null,
@@ -60,10 +72,13 @@ ShallowWrapper {
           "key": null,
           "nodeType": "host",
           "props": Object {
-            "children": "Desafio Live Rocket Seat",
+            "children": "Live Challenge RocketSeat",
+            "style": Object {
+              "marginTop": 0,
+            },
           },
           "ref": null,
-          "rendered": "Desafio Live Rocket Seat",
+          "rendered": "Live Challenge RocketSeat",
           "type": "h1",
         },
         Object {
@@ -89,12 +104,18 @@ ShallowWrapper {
         "children": <div
           style={
                     Object {
-                              "padding": "1em",
+                              "padding": "0.5em",
                             }
           }
 >
-          <h1>
-                    Desafio Live Rocket Seat
+          <h1
+                    style={
+                              Object {
+                                        "marginTop": 0,
+                                      }
+                    }
+          >
+                    Live Challenge RocketSeat
           </h1>
           <Connect(Todos) />
 </div>,
@@ -113,13 +134,19 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1>
-              Desafio Live Rocket Seat
+            <h1
+              style={
+                            Object {
+                                          "marginTop": 0,
+                                        }
+              }
+>
+              Live Challenge RocketSeat
 </h1>,
             <Connect(Todos) />,
           ],
           "style": Object {
-            "padding": "1em",
+            "padding": "0.5em",
           },
         },
         "ref": null,
@@ -129,10 +156,13 @@ ShallowWrapper {
             "key": null,
             "nodeType": "host",
             "props": Object {
-              "children": "Desafio Live Rocket Seat",
+              "children": "Live Challenge RocketSeat",
+              "style": Object {
+                "marginTop": 0,
+              },
             },
             "ref": null,
-            "rendered": "Desafio Live Rocket Seat",
+            "rendered": "Live Challenge RocketSeat",
             "type": "h1",
           },
           Object {
