@@ -15,69 +15,30 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": null,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": Array [
+      "children": <div
+        style={
+                Object {
+                        "padding": "1em",
+                      }
+        }
+>
         <h1>
-          Desafio Live Rocket Seat
-</h1>,
-        <Todos
-          todos={
-                    Array [
-                              Object {
-                                "id": 1,
-                                "text": "Watch the live ",
-                              },
-                              Object {
-                                "id": 2,
-                                "text": "Do the challenge ",
-                              },
-                            ]
-          }
-/>,
-      ],
-      "style": Object {
-        "padding": "1em",
+                Desafio Live Rocket Seat
+        </h1>
+        <Connect(Todos) />
+</div>,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
       },
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Desafio Live Rocket Seat",
-        },
-        "ref": null,
-        "rendered": "Desafio Live Rocket Seat",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "function",
-        "props": Object {
-          "todos": Array [
-            Object {
-              "id": 1,
-              "text": "Watch the live ",
-            },
-            Object {
-              "id": 2,
-              "text": "Do the challenge ",
-            },
-          ],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": null,
       "nodeType": "host",
@@ -86,20 +47,7 @@ ShallowWrapper {
           <h1>
             Desafio Live Rocket Seat
 </h1>,
-          <Todos
-            todos={
-                        Array [
-                                    Object {
-                                      "id": 1,
-                                      "text": "Watch the live ",
-                                    },
-                                    Object {
-                                      "id": 2,
-                                      "text": "Do the challenge ",
-                                    },
-                                  ]
-            }
-/>,
+          <Connect(Todos) />,
         ],
         "style": Object {
           "padding": "1em",
@@ -121,25 +69,85 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "function",
-          "props": Object {
-            "todos": Array [
-              Object {
-                "id": 1,
-                "text": "Watch the live ",
-              },
-              Object {
-                "id": 2,
-                "text": "Do the challenge ",
-              },
-            ],
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
       ],
       "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          style={
+                    Object {
+                              "padding": "1em",
+                            }
+          }
+>
+          <h1>
+                    Desafio Live Rocket Seat
+          </h1>
+          <Connect(Todos) />
+</div>,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Desafio Live Rocket Seat
+</h1>,
+            <Connect(Todos) />,
+          ],
+          "style": Object {
+            "padding": "1em",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Desafio Live Rocket Seat",
+            },
+            "ref": null,
+            "rendered": "Desafio Live Rocket Seat",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

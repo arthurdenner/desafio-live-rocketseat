@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import { isEmpty } from "lodash/fp";
 
 const Todos = ({ todos }) =>
@@ -13,4 +14,8 @@ Todos.propTypes = {
   todos: PropTypes.array.isRequired
 };
 
-export default Todos;
+const mapStateToProps = state => ({
+  todos: state.todos
+});
+
+export default connect(mapStateToProps)(Todos);

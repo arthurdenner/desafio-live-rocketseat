@@ -1,16 +1,15 @@
-import React, { Component } from "react";
-import Todos from "./todos";
-
-const todos = [
-  { id: 1, text: "Watch the live " },
-  { id: 2, text: "Do the challenge " }
-];
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./store";
+import Todos from "./Todos";
 
 const App = () => (
-  <div style={{ padding: "1em" }}>
-    <h1>Desafio Live Rocket Seat</h1>
-    <Todos todos={todos} />
-  </div>
+  <Provider store={store}>
+    <div style={{ padding: "1em" }}>
+      <h1>Desafio Live Rocket Seat</h1>
+      <Todos />
+    </div>
+  </Provider>
 );
 
 export default App;
